@@ -1,0 +1,5 @@
+        [Test]
+        public void DefaultGetInfoTest() {
+            Room r1 = new Room();
+            Assert.AreEqual("TD224 - 22", r1.getInfo());
+        }
